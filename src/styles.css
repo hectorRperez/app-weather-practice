@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.weather {
+  width: 350px;
+}
+
+.form {
+  display: flex;
+}
+
+.form input {
+  padding: 5px;
+  width: 100%;
+}
+
+.mainInfo {
+  margin-top: 5px;
+  height: 380px;
+  background: white;
+  border-radius: 5px;
+}
+
+.mainInfo .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainInfo .header .title {
+  padding: 10px;
+  text-align: center;
+}
+
+.mainInfo .header .cityName {
+  font-size: 22px;
+}
+
+.mainInfo .header .countryName {
+  font-size: 15px;
+}
+
+.mainInfo .header .infoWeather {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
